@@ -1,0 +1,161 @@
+.about-div, .coop-div, .contact-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+h2 {
+    margin-bottom: 0px;
+    align-self: flex-start;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+h4{
+    color: darkgray;
+    margin-bottom: 10px;
+    align-self: center;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+.about-div p {
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.mySlides {
+    max-height:250px;
+}
+
+#logo-div {
+    padding-top: 30px;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    float: left;
+    justify-content: center;
+}
+
+#lgs-logo, #tda-logo, #caci-logo, #prudential-logo {
+    background-color: white;}
+
+#logo-div img {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    max-height: 225px;
+    align-self: center;
+}
+
+.info-div{
+    width: 0px;
+    max-height: 220px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    transition: width 2s; 
+    z-index: 0; 
+    color: black;
+    background-color: rgba(211, 211, 211, 0.25);
+    transition-timing-function: ease-in-out;
+    text-align: center;
+}
+
+.info-div p {
+    padding: 10px;  
+    margin-bottom: 0px;  
+}
+
+#caci-div, #lgs-div {
+    display: flex;
+    justify-content: flex-end;
+    left: 0px;
+    /* overflow-x: auto could work */
+}
+
+#caci-logo, #lgs-logo {
+    display: inline-grid;
+    z-index: 1;
+}
+
+#caci-div:hover #caci-info, #lgs-div:hover #lgs-info{
+    width: 552px;
+}
+
+#tda-div, #prudential-div {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+#tda-logo, #prudential-logo {
+    display: flex;
+    z-index: 1;
+    float: left;
+}
+
+#tda-div:hover #tda-info, #prudential-div:hover #prudential-info{
+    width: 300px;
+}
+
+#tda-div:hover #tda-logo, #prudential-div:hover #prudential-logo{
+    border-right: outset solid grey 4px;
+}
+
+.job-title{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.company-description{
+    color: grey;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.projects-div{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.project-preview {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+#pisense-gif{
+    height: 317px;
+    width: 487px;
+}
+
+.projects-div ul li > * {
+    display: block;
+}
+
+.projects-div ul li a{
+    display: flex;
+    justify-content: center;
+}
+
+#link-div {
+    align-content: center;
+}
+
+#gmail {
+    padding-bottom: 10px;
+}
+
+.contact-div a img{
+    padding: 5px;
+    max-width: 35px;
+    max-height: 35px;
+}
+
