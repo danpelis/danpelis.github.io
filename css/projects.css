@@ -1,0 +1,70 @@
+.centered-div{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.centered-div h2 {
+    display: flex;
+    align-self: flex-start;
+}
+
+#github-tag {
+    text-align: center;
+    width: 35%;
+    background-color: rgba(119, 136, 153, 0.555);
+    border-style: outset;
+    border-radius: 15px 50px 30px;
+}
+
+#github-tag:hover {
+    border-style: inset;
+}
+
+.centered-div a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    align-self: center;
+    padding-left: 20px;
+}
+
+.centered-div a:hover {
+    color: lightgray;
+}
+
+.centered-div ul{
+    list-style: none;
+}
+
+.centered-div a {
+    font-size: 18px;
+    display: block;
+    text-decoration: underline;
+}
+
+.centered-div h3 {
+    margin-bottom: 0px;
+}
+
+.centered-div h4 {
+    margin: 0px;
+    padding-left: 20px;
+}
+
+.centered-div p {
+    margin: 0px;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.centered-div img {
+    margin-top: 30px;
+    width:340px; /* you can use % */
+    height: auto;
+}
+
+.img-div {
+    display: flex;
+    justify-content: center;
+}

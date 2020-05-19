@@ -5,13 +5,6 @@
     width: 800px;
 }
 
-h2 {
-    margin-bottom: 0px;
-    align-self: flex-start;
-    letter-spacing: 2px;
-    font-weight: lighter;
-}
-
 h4{
     color: darkgray;
     margin-bottom: 10px;
@@ -136,6 +129,9 @@ h4{
     width: 487px;
 }
 
+.projects-div ul {
+    list-style: none
+}
 .projects-div ul li > * {
     display: block;
 }

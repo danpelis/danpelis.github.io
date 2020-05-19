@@ -5,6 +5,13 @@ body {
     margin: 0px;
 }
 
+h2 {
+    margin-bottom: 0px;
+    align-self: flex-start;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
 #top-div {
     background-color: #333;
     color: white;
