@@ -1,23 +1,26 @@
+@font-face { font-family: latoRegular; 
+    src: url('../fonts/Lato-Regular.ttf'); } 
+
 body {
     color: #333;
     background-color: white;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: latoRegular, Verdana, Geneva, sans-serif;
     margin: 0px;
 }
 
 h2 {
     margin-bottom: 0px;
-    align-self: flex-start;
     letter-spacing: 2px;
     font-weight: lighter;
 }
 
 #top-div {
-    background-color: #333;
-    color: white;
+    background-color: #8fbff094;
+    color: black;
     width: 100%;
-    border-bottom: 2px solid;
+    /* border-bottom: 2px solid;
     border-bottom-style: outset;
+    border-color: #8fbff080; */
 }
 
 body, .topbar {
